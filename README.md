@@ -2,9 +2,11 @@
 
 RecipeVault is a clean, user-friendly recipe management application built with React. It allows users to add, categorize, visualize, and manage their favorite recipes—all saved locally in the browser using `localStorage`.
 
+
 ## 🚀 Live Demo
 
 Check it out here: [https://theflakiestbiscuit.github.io/RecipeVault/](https://theflakiestbiscuit.github.io/RecipeVault/)
+
 
 ## 🛠️ Features
 
@@ -19,12 +21,14 @@ Check it out here: [https://theflakiestbiscuit.github.io/RecipeVault/](https://t
 - Visualize recipe categories using a DonutChart
 - Data persists via `localStorage` even after browser refresh
 
+
 ## 📊 Tech Stack
 
 - **Frontend:** React (with `useState`, `useEffect`)
 - **Storage:** Browser `localStorage`
 - **Styling:** Tailwind CSS (custom layout and color scheme)
 - **Visualization:** DonutChart component for category tracking
+
 
 ## 📂 Folder Structure
 
@@ -49,15 +53,25 @@ RecipeVault/
 │   │   ├── RecipeList.test.js
 
 │   ├── App.js
+
 │   ├── App.css
+
 │   ├── App.test.js
+
 │   ├── Buttons.js
+
 │   ├── Controls.js
+
 │   ├── DonutChart.js
+
 │   ├── DonutChart.css
+
 │   ├── Header.js
+
 ├── package.json
+
 ├── README.md
+
 
 ## 🧠 What I Learned
 
