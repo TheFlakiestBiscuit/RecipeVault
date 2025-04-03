@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/RecipeVault/static/css/main.62db5af8.chunk.css",
+    "main.js": "/RecipeVault/static/js/main.a5dfd8ae.chunk.js",
+    "main.js.map": "/RecipeVault/static/js/main.a5dfd8ae.chunk.js.map",
+    "runtime-main.js": "/RecipeVault/static/js/runtime-main.d0c28230.js",
+    "runtime-main.js.map": "/RecipeVault/static/js/runtime-main.d0c28230.js.map",
+    "static/js/2.b558a5d0.chunk.js": "/RecipeVault/static/js/2.b558a5d0.chunk.js",
+    "static/js/2.b558a5d0.chunk.js.map": "/RecipeVault/static/js/2.b558a5d0.chunk.js.map",
+    "static/js/3.ac72ee45.chunk.js": "/RecipeVault/static/js/3.ac72ee45.chunk.js",
+    "static/js/3.ac72ee45.chunk.js.map": "/RecipeVault/static/js/3.ac72ee45.chunk.js.map",
+    "index.html": "/RecipeVault/index.html",
+    "precache-manifest.31014ac7f632ffa36ff66b93afece9a2.js": "/RecipeVault/precache-manifest.31014ac7f632ffa36ff66b93afece9a2.js",
+    "service-worker.js": "/RecipeVault/service-worker.js",
+    "static/css/main.62db5af8.chunk.css.map": "/RecipeVault/static/css/main.62db5af8.chunk.css.map",
+    "static/js/2.b558a5d0.chunk.js.LICENSE.txt": "/RecipeVault/static/js/2.b558a5d0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d0c28230.js",
+    "static/js/2.b558a5d0.chunk.js",
+    "static/css/main.62db5af8.chunk.css",
+    "static/js/main.a5dfd8ae.chunk.js"
+  ]
+}
