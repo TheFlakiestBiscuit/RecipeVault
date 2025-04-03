@@ -29,15 +29,25 @@ Check it out here: [https://theflakiestbiscuit.github.io/RecipeVault/](https://t
 ## 📂 Folder Structure
 
 RecipeVault/
+
 ├── public/
+
 ├── src/
+
 │   ├── components/
+
 │   │   ├── RecipeCard.js
+
 │   │   ├── RecipeCard.css
+
 │   │   ├── RecipeCard.test.js
+
 │   │   ├── RecipeList.js
+
 │   │   ├── RecipeList.css
+
 │   │   ├── RecipeList.test.js
+
 │   ├── App.js
 │   ├── App.css
 │   ├── App.test.js
