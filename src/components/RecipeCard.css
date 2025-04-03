@@ -1,0 +1,116 @@
+.recipe-card-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.recipe-card {
+    background-color: #EEF5DB;
+    padding: 30px;
+    border-radius: 16px;
+    width: 90%;
+    max-width: 450px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    position: relative;
+    font-family: sans-serif;
+}
+
+.recipe-card-title {
+    font-size: 28px;
+    margin-bottom: 12px;
+    margin-top: 6px;
+    color: #0F7173;
+}
+
+.recipe-card-category {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.close-btn {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background-color: #CD8987; /* Old Rose color */
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 6px 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.close-btn:hover {
+    background-color: #B87270;
+}
+
+/* ingredients container adjustments */
+.ingredients-container {
+    background-color: #dce8c7;
+    padding: 12px 16px;
+    margin-top: 12px;
+    border-radius: 8px;
+    border: 1px solid var(--primary);
+}
+
+.ingredients-container ul {
+    list-style-position: inside; /* align bullet points with text */
+    margin: 0;
+    padding-left: 0;
+}
+
+.ingredients-container li {
+    font-size: 16px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.ingredients-label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: -8px;
+}
+
+.delete-btn {
+    background-color: var(--danger);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+    background-color: #B87270; /* Darker shade for hover effect */
+}
+
+.recipe-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 12px;
+    border-radius: 8px;
+    border: 1px solid var(--primary);
+    position: relative; /* Ensure the image is positioned relative for the thumbnail */
+}
+
+.recipe-thumbnail {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid var(--primary);
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}

@@ -1,0 +1,213 @@
+/* Color Variables */
+:root {
+  --bg-main: #FAF3DD;
+  --input-bg: #C8D5B9;
+  --primary: #0F7173;
+  --danger: #CD8987;
+  --accent: #a9c8a0;
+}
+
+/* General Styling */
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: var(--bg-main);
+}
+
+/* Header */
+h1 {
+  color: var(--primary);
+}
+
+/* Input Field */
+input[type="text"] {
+  padding: 8px;
+  border: 1px solid var(--accent);
+  background-color: #F8F7FF;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+/* Buttons */
+button {
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  margin: 10px;
+  margin-top: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: var(--accent);
+}
+
+/* Delete Button Style */
+.btn-danger {
+  background-color: var(--danger);
+}
+
+.btn-danger:hover {
+  background-color: #b06363; /*Darker tone of 'danger' variable */
+}
+
+/* text field style */
+.recipe-input {
+  background-color: var(--input-bg);
+  border: 1px solid var(--accent);
+}
+
+/* Title Style */
+.title {
+  font-family: 'Dancing Script', cursive;
+  font-size: 62px;
+  color: var(--primary);
+}
+
+/* DonutChart Style */
+.donut-chart {
+  width: 330px;
+  height: 150px;
+  border: 2px solid var(--accent);
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 60px auto 30px auto;
+  font-size: 14px;
+  color: var(--text);
+  background-color: #dce8c7; /* Optional: soft background inside chart */
+}
+
+/* Flex Bucket */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Ingredient Input Styles */
+.ingredient-section {
+  margin-top: 10px;
+}
+
+.ingredient-input {
+  margin-right: 8px;
+}
+
+.btn-secondary {
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn-secondary:hover {
+  background-color: var(--accent);
+}
+
+.ingredient-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.ingredient-item {
+  margin-bottom: 4px;
+  font-size: 16px;
+}
+
+.remove-btn {
+  margin-left: 10px;
+  background-color: var(--danger);
+  color: white;
+  border: none;
+  padding: 2px 6px;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.remove-btn:hover {
+  background-color: #b06363; /*Darker tone of 'danger' variable */
+}
+
+.category-dropdown {
+  margin-bottom: 10px;
+  padding: 6px 12px;
+  font-size: 16px;
+  border: 2px solid var(--accent);
+  background-color: #dce8c7;
+  color: var(--text);
+  border-radius: 6px;
+}
+
+.main-wrapper {
+  text-align: center;
+  padding: 20px;
+}
+
+.main-layout {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 40px;
+  flex-wrap: wrap;
+  gap: 0px;
+}
+
+.left-panel {
+  margin-top: 60px;
+  flex: 1;
+  max-width: 40%;
+}
+
+.right-panel {
+  flex: 1;
+  max-width: 35%;
+  background-color: var(--input-bg);
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.left-panel,
+.right-panel {
+  flex: 1 1 100%; /* default to full width on small screens */
+  max-width: 100%;
+}
+
+@media (min-width: 768px) {
+  .left-panel {
+    max-width: 40%;
+  }
+
+  .right-panel {
+    max-width: 35%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .main-layout {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-panel,
+  .right-panel {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .donut-chart {
+    margin: 30px auto;
+  }
+}

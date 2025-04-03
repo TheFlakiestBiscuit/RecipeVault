@@ -1,0 +1,30 @@
+.donut-chart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin: 30px auto 40px;
+}
+
+.chart-wrapper {
+    position: relative;
+    width: 370px;
+    height: 370px;
+}
+
+.chart-title {
+    position: absolute;
+    top: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.5rem;
+    color: #0F7173; /* Match theme */
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.chart-placeholder {
+    font-size: 1rem;
+    color: #666;
+}
